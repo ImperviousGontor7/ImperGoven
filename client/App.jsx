@@ -32,25 +32,28 @@ function App() {
         <Route path="/forum" element={<Forum />} />
         <Route path="/contact" element={<Contact />} />
 
-        {/* SUB ABOUT */}
-        <Route path="/profil/our_generation" element={<OurGeneration />} />
+        <Route path="/profil/our-generation" element={<OurGeneration />} />
         <Route path="/profil/history" element={<History />} />
         <Route path="/profil/committee" element={<Committee />} />
-        <Route path="/page/profil/agenda" element={<Agenda />} />
+        <Route path="/profil/agenda" element={<Agenda />} />
         <Route path="/profil/memories" element={<Memories />} />
 
-        {/* READ MORE PAGES */}
         <Route path="/legacy/tegalsari" element={<Tegalsari />} />
 
-        {/* READ MORE PAGES */}
-        <Route path="/read_more/news/july/culinary_challenge" element={<CulinaryChallenge />} />
-        <Route path="/read_more/news/july/wellness_event" element={<WellnessEvent />} />
+        <Route
+          path="/read-more/news/july/culinary-challenge"
+          element={<CulinaryChallenge />}
+        />
 
-        {/* OTHER PAGES */}
+        <Route
+          path="/read-more/news/july/wellness-event"
+          element={<WellnessEvent />}
+        />
+
         <Route path="/our-team" element={<OurTeam />} />
         <Route path="/faq" element={<FAQ />} />
-        <Route path="/privacy_policy" element={<PrivacyPolicy />} />
-        <Route path="/support_center" element={<SupportCenter />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/support-center" element={<SupportCenter />} />
 
       </Route>
     </Routes>
