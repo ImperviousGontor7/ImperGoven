@@ -1,26 +1,26 @@
 import { Routes, Route } from "react-router-dom";
 
-import Layout from "./components/layout";
+import Layout from "./src/components/layout";
 
-import Home from "./pages/home";
-import About from "./pages/about";
-import Forum from "./pages/forum";
-import Contact from "./pages/contact";
+import Home from "./src/pages/home";
+import About from "./src/pages/about";
+import Forum from "./src/pages/forum";
+import Contact from "./src/pages/contact";
 
-import OurGeneration from "./pages/profil/our_generation";
-import History from "./pages/profil/history";
-import Committee from "./pages/profil/committee";
-import Agenda from "./pages/profil/agenda";
-import Memories from "./pages/profil/memories";
+import OurGeneration from "./src/pages/profil/our_generation";
+import History from "./src/pages/profil/history";
+import Committee from "./src/pages/profil/committee";
+import Agenda from "./src/pages/profil/agenda";
+import Memories from "./src/pages/profil/memories";
 
-import CulinaryChallenge from "./pages/read_more/news/july/culinary_challenge";
-import WellnessEvent from "./pages/read_more/news/july/wellness_event";
+import CulinaryChallenge from "./src/pages/read_more/news/july/culinary_challenge";
+import WellnessEvent from "./src/pages/read_more/news/july/wellness_event";
 
-import OurTeam from "./other/our_team";
-import FAQ from "./other/faq";
-import PrivacyPolicy from "./other/privacy_policy";
-import SupportCenter from "./other/support_center";
-import Tegalsari from "./pages/profil/legacy/tegalsari";
+import OurTeam from "./src/other/our_team";
+import FAQ from "./src/other/faq";
+import PrivacyPolicy from "./src/other/privacy_policy";
+import SupportCenter from "./src/other/support_center";
+import Tegalsari from "./src/pages/profil/legacy/tegalsari";
 
 function App() {
   return (

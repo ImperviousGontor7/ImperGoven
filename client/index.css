@@ -283,7 +283,6 @@
   border-radius: 1rem;
   /* rounded-2xl */
 
-  backdrop-filter: blur(4px);
   /* backdrop-blur-sm */
 
   transition-property: all;
